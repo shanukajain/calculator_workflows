@@ -1,7 +1,7 @@
 {
   "name": "file-editor",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create a command line argument based calculator using Node.js that takes in mathematical operations and numbers as arguments from the terminal and provides the appropriate output. The calculator should support the following operations (command for the particular operation are given in \"()\" , use those commands only ):",
   "main": "index.js",
   "scripts": {
     "test": "jest app.test.js"
@@ -11,5 +11,13 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.3.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanukajain/calculator_workflows.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shanukajain/calculator_workflows/issues"
+  },
+  "homepage": "https://github.com/shanukajain/calculator_workflows#readme"
 }

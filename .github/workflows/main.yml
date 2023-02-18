@@ -1,1 +1,18 @@
 # workflows
+name: Github action ofr
+on:
+  push:
+    branches: [master]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v3
+      - name: Install node.js
+        uses: actions/setup-node@v2
+        with:  
+         node-version: '18.x'
+      - name: install npm
+        run: npm i 
+      - name: npm run test
+        run: npm test
