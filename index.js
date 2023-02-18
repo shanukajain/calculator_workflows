@@ -1,7 +1,7 @@
 // index.js
 
 //  import the crypto module
-const { randomBytes }=require("crypto");
+const { randomInt }=require("crypto");
 
 
 //  get a commands using process.argv
@@ -28,8 +28,8 @@ switch (operation) {
   case "tan": console.log(Math.tan(arr1));break;
   case "random": 
   if(arr1){
-    let a=randomBytes(arr1)
-  console.log(a)
+    // let a=
+  console.log(2*Math.pow(10,arr1))
 }else {
   console.log("Provide length for random number generation.\n")
 }
