@@ -37,7 +37,7 @@ switch (operation) {
         console.log("should return message if no length is given for random");
         return;
       }
-      console.log(buf.toString("utf8"));
+      console.log(buf.toString("hex"));
       return 
   });
 break;
