@@ -27,14 +27,14 @@ switch (operation) {
   case "cos": console.log(Math.cos(arr1));break;
   case "tan": console.log(Math.tan(arr1));break;
   case "random": 
-  if(!arr1){
-    console.log("should return message if no length is given for random");
+  if(arr1==undefined){
+    console.log("Provide length for random number generation.\n");
     break;
   }
-  randomBytes(arr1,(err, buf) => {
+  randomBytes(arr1+1,(err, buf) => {
       if (err) {
         // Prints error
-        console.log("should return message if no length is given for random");
+        console.log("Provide length for random number generation.\n");
         return;
       }
       console.log(buf.toString());
